@@ -252,8 +252,3 @@ The favorite notification was generated successfully.
 
 <img width="400" height="660" alt="1000169050" src="https://github.com/user-attachments/assets/bc756978-0631-4b2a-bcef-453fd94f5a11" />
 
-
-
-
-**Subject:** Mobile Application Development Lab  
-**Experiment:** ArtGallery – Digital Exhibition
