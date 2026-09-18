@@ -55,22 +55,22 @@ class ExhibitionFragment : Fragment() {
 
         when (category) {
             "Sculptures" -> {
-                title = "David"
-                artist = "Michelangelo"
-                description = "A masterpiece of Renaissance sculpture created in marble between 1501 and 1504 by the Italian artist Michelangelo."
-                imageRes = R.drawable.david
+                title = "Bust of Nefertiti"
+                artist = "Thutmose (c. 1345 BC)"
+                description = "An iconic painted stucco-coated limestone bust of Nefertiti, the Great Royal Wife of the Egyptian pharaoh Akhenaten, featuring her famous flat-topped blue crown."
+                imageRes = R.drawable.sculpture
             }
             "Photography" -> {
-                title = "A Simple Sample Photography"
-                artist = "Anonymous Photographer"
-                description = "A stunning capture of light and shadow showcasing modern minimalist photography aesthetics."
+                title = "Glass Terrarium"
+                artist = "Botanical Photographer"
+                description = "A beautiful close-up macro photograph of a glass terrarium filled with vibrant green succulents, capturing soft, natural light and delicate textures."
                 imageRes = R.drawable.photography
             }
             else -> { // Paintings
-                title = "Starry Night"
-                artist = "Vincent van Gogh"
-                description = "Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence."
-                imageRes = R.drawable.starry_night
+                title = "Autumn Stroll"
+                artist = "Impressionist Painter"
+                description = "A highly textured, colorful impressionistic painting depicting a lone figure with a green umbrella walking down a tree-lined path amidst falling golden leaves."
+                imageRes = R.drawable.painting
             }
         }
 

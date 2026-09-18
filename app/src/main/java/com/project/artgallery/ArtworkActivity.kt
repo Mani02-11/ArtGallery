@@ -38,7 +38,7 @@ class ArtworkActivity : AppCompatActivity() {
         val title = intent.getStringExtra("EXTRA_TITLE") ?: "Artwork Title"
         val artist = intent.getStringExtra("EXTRA_ARTIST") ?: "Artist Name"
         val description = intent.getStringExtra("EXTRA_DESCRIPTION") ?: "Complete description goes here."
-        val imageRes = intent.getIntExtra("EXTRA_IMAGE", R.drawable.starry_night)
+        val imageRes = intent.getIntExtra("EXTRA_IMAGE", R.drawable.painting)
 
         tvArtworkTitle.text = title
         tvArtistName.text = artist
