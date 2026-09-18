@@ -174,7 +174,7 @@ The application contains a digital exhibition interface with:
 
 # 🧪 Test Cases
 
-## Test Case 1 – Application Launch and Exhibition Selection
+## Test Case 1 – Application Launch and Exhibition Selection 
 
 ### Objective
 
@@ -192,15 +192,10 @@ The main screen should be displayed successfully. After selecting Paintings, the
 
 The application launched successfully and the Paintings exhibition was displayed.
 
-### Status
 
-✅ **Passed**
+### Screenshot Showing Name and USN
 
-### Screenshot
-
-![Test Case 1](screenshots/test_case_1.png)
-
-**Figure 2: Test Case 1 – Exhibition Selection**
+<img width="400" height="660" alt="1000169047" src="https://github.com/user-attachments/assets/650ee40b-3285-4d78-a22f-28203a452336" />
 
 ---
 
@@ -222,15 +217,10 @@ The `ArtworkActivity` should open and display the artwork image, title, artist, 
 
 The Artwork Activity opened successfully and displayed the selected artwork details.
 
-### Status
-
-✅ **Passed**
-
 ### Screenshot
 
-![Test Case 2](screenshots/test_case_2.png)
+<img width="400" height="660" alt="1000169048" src="https://github.com/user-attachments/assets/0c28a9b8-4b10-4c0b-872a-a4f5fea8019b" />
 
-**Figure 3: Test Case 2 – Artwork Details**
 
 ---
 
@@ -248,14 +238,6 @@ Open an artwork and click the **ADD TO FAVORITES** button.
 
 An Android notification should be displayed indicating that the artwork has been added to favorites.
 
-Example:
-
-```text
-ArtGallery
-
-Starry Night added to Favorites
-```
-
 ### Actual Result
 
 The favorite notification was generated successfully.
@@ -266,21 +248,12 @@ The favorite notification was generated successfully.
 
 ### Screenshot
 
-![Test Case 3](screenshots/test_case_3.png)
+<img width="400" height="660" alt="1000169049" src="https://github.com/user-attachments/assets/ce8c772f-95ba-4082-bddc-a6b2bfd60d1d" />
 
-**Figure 4: Test Case 3 – Add to Favorites Notification**
-
----
+<img width="400" height="660" alt="1000169050" src="https://github.com/user-attachments/assets/bc756978-0631-4b2a-bcef-453fd94f5a11" />
 
 
-### Screenshot Showing Name and USN
 
-![Student Details](screenshots/student_details_usn.png)
 
-**Figure 5: Application Output Showing Student Name and USN**
-
----
-
-**USN:** 25MCAR0186  
 **Subject:** Mobile Application Development Lab  
 **Experiment:** ArtGallery – Digital Exhibition
